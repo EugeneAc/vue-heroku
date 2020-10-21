@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "postinstall": "cd nested && npm install && npm build && cd ..",
+    "postinstall": "cd nested && yarn install && yarn build && cd ..",
     "start": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
